@@ -1,0 +1,62 @@
+.block1 {
+    border: 2px solid;
+    min-height: 70vh; 
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+}
+
+.block2 {
+    border: 2px solid;
+    min-height: 18vh; 
+
+}
+
+.test-block {
+    padding-top: 1%;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+}
+
+
+.todo-block {
+    border: 2px solid;
+    height: 50vh;
+    width: 40vh;
+    
+}
+
+.title {
+    border: 2px solid;
+    height: 10%;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll-block {
+    border: 2px solid;
+    height: 89%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.preview {
+    border: 2px solid;
+    display: none; 
+}
+
+.remove-bttn {
+    float: right;
+    margin-top: 1vh;
+    margin-right: 1vh;
+}
+
+.preview-title {
+    display: inline-block;
+    padding: 0.25vh;
+}
+.preview-info {
+    padding: 0.25vh;
+}
